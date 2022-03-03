@@ -23,3 +23,7 @@ function roundPlay(playerSelection, computerOption){
 let playerSelection="rock";
 let computerSelection=computerPlay();
 console.log(roundPlay(playerSelection, computerSelection));
+for (let i=1; i<10 ; i++){
+
+    console.log(roundPlay(playerSelection, computerOption));
+}
